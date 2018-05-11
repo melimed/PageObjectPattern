@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [PageObjectPattern]">
+  <test name="Test(failed)">
+    <parameter name="password" value="Melimed4@"/>
+    <parameter name="username" value="melimed2@hotmail.com"/>
+    <classes>
+      <class name="MavenProject.PageObjectPattern.loginTest">
+        <methods>
+          <include name="login" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- MavenProject.PageObjectPattern.loginTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [PageObjectPattern] -->

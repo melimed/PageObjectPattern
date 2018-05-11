@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="PageObjectPattern">
+  <test name="Test">
+  	<parameter name="username" value="melimed2@hotmail.com"/>
+	<parameter name="password" value="Melimed4@"/>
+    <classes>
+      <class name="MavenProject.PageObjectPattern.loginTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
